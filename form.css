@@ -40,25 +40,22 @@ td{
   border: none;
   float: right;
 }
-.select{
-  width: fit-content;
-  height: 100%;
-  border: none;
-  float: right;
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 770px) {
   .main{
-      background: lightgrey;
-      padding: 3px;
-      max-width: fit-content;
-      justify-self: center;
-      display: inline-block;
-      width: 100%;
-  }
+    background: lightgrey;
+    width: 100%;
+    max-width: fit-content;
+    display: inline-block;
+    padding: 3px;
+    justify-self: center;
+  }  
+  .firstcol {
+    column-gap: 2px;
+
   table{
       row-gap: 2px;
   }
-  .firstcol {
       column-count: 2;
   }
   .secondcol{
@@ -66,13 +63,13 @@ td{
   }
   tr{
       display: inline-grid;
-
   }
   .row1 .row2{
       text-align: center;
   }
-}
-@media screen and (min-width:769px){
+
+
+@media screen and (min-width:760px){
   .main{
       background: lightgrey;
       padding: 10px;
@@ -101,6 +98,6 @@ td{
       width: fit-content;
   }
   .inner{
-      width: 285px;
+      width: 280px;
   }
 }
